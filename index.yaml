@@ -1,16 +1,16 @@
 apiVersion: v1
 entries:
   logstream-master:
-  - apiVersion: v2
+ - apiVersion: v2
     appVersion: 3.0.2
-    created: "2021-06-29T18:24:50.674012887Z"
+    created: "2021-06-30T03:26:51.307984077Z"
     description: Deploys a Cribl LogStream Master in K8s.
-    digest: 9b9da0c9e7c5728f3d6ea5ed4d05bc2ea7393da73ab9f9c4e37976a99d5753f6
+    digest: b595b3d51787de53eccf04aa04a515f1057fd7820b79f641e2cd2c89e0c743d9
     icon: https://criblio.github.io/helm-charts/images/Cribl_Logo_Color_TM.png
     name: logstream-master
     type: application
     urls:
-    - https://github.com/h3mdb/helm-charts/releases/download/v3.0.2/logstream-master-3.0.2.tgz
+    - https://github.com/h3mdb/helm-charts/releases/download/logstream-master-3.0.2/logstream-master-3.0.2.tgz
     version: 3.0.2
   - apiVersion: v2
     appVersion: 2.4.5
