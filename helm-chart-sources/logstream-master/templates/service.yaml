@@ -33,7 +33,7 @@ metadata:
     {{- toYaml .Values.service.annotations  | nindent 4 }}
 
 spec:
-  type: {{- if (eq $.Values.ingress.enable true) }} NodePort {{- else }} {{ .Values.service.externalType }} {{- end }}
+  type: NodePort
   ports:
       {{-  range .Values.service.ports }}
       {{- if .external  }}
